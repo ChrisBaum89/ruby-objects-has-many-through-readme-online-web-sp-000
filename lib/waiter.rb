@@ -27,7 +27,7 @@ class Waiter
     largest_tip = 0
     customer_with_largest_tip = ""
     meals.each do |meal|
-      binding.pry
+      #binding.pry
       if meal.tip > largest_tip
         customer_with_largest_tip = meal.customer
       end
