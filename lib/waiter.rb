@@ -26,7 +26,7 @@ class Waiter
   def best_tipper
     customers = []
     customers = meals.map do |meal|
-      meal.customers
+      meal.customer
     end
   end
 
