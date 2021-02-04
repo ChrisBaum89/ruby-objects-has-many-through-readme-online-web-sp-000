@@ -33,6 +33,7 @@ class Waiter
       end
 
     end
+    customer_with_largest_tip
   end
 
 
