@@ -30,7 +30,7 @@ class Waiter
       if meal.tip > largest_tip
         customer_with_largest_tip = meal.customer
       end
-      
+
     end
   end
 
