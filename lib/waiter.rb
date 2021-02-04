@@ -24,9 +24,13 @@ class Waiter
   end
 
   def best_tipper
-    customers = []
-    customers = meals.map do |meal|
-      binding.pry
+    largest_tip = 0
+    customer_with_largest_tip = ""
+    meals.each do |meal|
+      if meal.tip > largest_tip
+        customer_with_largest_tip = meal.customer
+      end
+      
     end
   end
 
